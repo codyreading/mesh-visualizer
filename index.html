@@ -21,13 +21,34 @@
   <div class="container is-max-desktop has-text-centered">
 
     <!-- 3d model viewer -->
-    <p class="title is-3 mt-5 has-text-centered"> Exported Meshes </p>
+    <p class="title is-3 mt-5 has-text-centered"> A red sportscar </p>
     <div class="level">
+      <div class="level-item">
+        <model-viewer src="meshes/lambo_tsdf_no_color.glb" style="width: 100%; height: 300px;" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+      <div class="level-item">
+        <model-viewer src="meshes/lambo_tsdf.glb" style="width: 100%; height: 300px;" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+    </div>
+
+    <!-- 3d model viewer -->
+    <p class="title is-3 mt-5 has-text-centered"> A ripe pineapple </p>
+    <div class="level">
+      <div class="level-item">
+        <model-viewer src="meshes/pineapple_001_tsdf_nocolor.glb" style="width: 100%; height: 300px;" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
       <div class="level-item">
         <model-viewer src="meshes/pineapple_001_tsdf.glb" style="width: 100%; height: 300px;" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
       </div>
     </div>
     
+     <!-- 3d model viewer -->
+     <p class="title is-3 mt-5 has-text-centered"> A teapot </p>
+     <div class="level">
+       <div class="level-item">
+         <model-viewer src="meshes/teapot_tsdf.glb" style="width: 100%; height: 300px;" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+       </div>
+     </div>
   
   </div>
   </section>
